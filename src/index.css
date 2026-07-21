@@ -1,0 +1,17 @@
+:root {
+  --text: rgb(187, 187, 187);
+
+  color-scheme: dark;
+  color: var(--text);
+}
+
+#root {
+  text-align: center;
+  min-height: 95svh;
+  display: flex;
+}
+
+h1{
+  font-size: 56px;
+  letter-spacing: -1.68px;
+}
