@@ -1,17 +1,33 @@
 :root {
-  --text: rgb(187, 187, 187);
-
   color-scheme: dark;
-  color: var(--text);
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #c7d5e0;
+  background: #0f141a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  background: #0f141a;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: #0f141a;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
 }
 
 #root {
-  text-align: center;
-  min-height: 95svh;
-  display: flex;
-}
-
-h1{
-  font-size: 56px;
-  letter-spacing: -1.68px;
+  min-height: 100vh;
 }
